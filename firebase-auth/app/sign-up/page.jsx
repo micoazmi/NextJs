@@ -28,7 +28,7 @@ const SignUp = () => {
             if (error) {
                 Swal.fire({
                     icon:"error",
-                    text:error.message||"Something went wrong try again"
+                    text:error.message||"Something went wrong try again fix"
                 })
                 return console.log(error)
             }

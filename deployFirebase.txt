@@ -1,0 +1,24 @@
+npm install firebase
+
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyC69MowA8cos3U7YlFN88kYhphpjcnE7Js",
+  authDomain: "fullstackapp-b9a2b.firebaseapp.com",
+  projectId: "fullstackapp-b9a2b",
+  storageBucket: "fullstackapp-b9a2b.firebasestorage.app",
+  messagingSenderId: "673909363357",
+  appId: "1:673909363357:web:ce99ebb4b49cc2efe9fa74",
+  measurementId: "G-ZMWCCXM2EH"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);

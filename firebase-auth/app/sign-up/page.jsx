@@ -98,6 +98,7 @@ const SignUp = () => {
           {/* Submit Button */}
           <button
             type="submit"
+            data-testid='submit-button'
             className="w-full rounded-md bg-blue-500 px-4 py-2 text-white font-semibold hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300"
           >
             Sign Up
